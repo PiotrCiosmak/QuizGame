@@ -20,7 +20,7 @@ public class Quiz implements ActionListener
     int correct_guesses = 0;
     int total_questions;
     int result;
-    int seconds = 10;
+    int seconds = 60;
 
     JFrame frame = new JFrame();
     JTextField textField = new JTextField();
@@ -60,7 +60,7 @@ public class Quiz implements ActionListener
         textField.setBounds(0, 0, 650, 50);
         textField.setBackground(new Color(25, 25, 25));
         textField.setForeground(new Color(25, 255, 0));
-        textField.setFont(new Font("Ink Free", Font.BOLD, 30));
+        textField.setFont(new Font("Ariel", Font.BOLD, 30));
         textField.setBorder(BorderFactory.createBevelBorder(1));
         textField.setHorizontalAlignment(JTextField.CENTER);
         textField.setEditable(false);
@@ -70,30 +70,30 @@ public class Quiz implements ActionListener
         textArea.setWrapStyleWord(true);
         textArea.setBackground(new Color(25, 25, 25));
         textArea.setForeground(new Color(25, 255, 0));
-        textArea.setFont(new Font("MV Boli", Font.BOLD, 25));
+        textArea.setFont(new Font("Ariel", Font.BOLD, 25));
         textArea.setBorder(BorderFactory.createBevelBorder(1));
         textArea.setEditable(false);
 
         buttonA.setBounds(0, 100, 100, 100);
-        buttonA.setFont(new Font("MV Boli", Font.BOLD, 35));
+        buttonA.setFont(new Font("Ariel", Font.BOLD, 35));
         buttonA.setFocusable(false);
         buttonA.addActionListener(this);
         buttonA.setText("A");
 
         buttonB.setBounds(0, 200, 100, 100);
-        buttonB.setFont(new Font("MV Boli", Font.BOLD, 35));
+        buttonB.setFont(new Font("Ariel", Font.BOLD, 35));
         buttonB.setFocusable(false);
         buttonB.addActionListener(this);
         buttonB.setText("B");
 
         buttonC.setBounds(0, 300, 100, 100);
-        buttonC.setFont(new Font("MV Boli", Font.BOLD, 35));
+        buttonC.setFont(new Font("Ariel", Font.BOLD, 35));
         buttonC.setFocusable(false);
         buttonC.addActionListener(this);
         buttonC.setText("C");
 
         buttonD.setBounds(0, 400, 100, 100);
-        buttonD.setFont(new Font("MV Boli", Font.BOLD, 35));
+        buttonD.setFont(new Font("Ariel", Font.BOLD, 35));
         buttonD.setFocusable(false);
         buttonD.addActionListener(this);
         buttonD.setText("D");
@@ -101,27 +101,27 @@ public class Quiz implements ActionListener
         answer_labelA.setBounds(125, 100, 500, 100);
         answer_labelA.setBackground(new Color(50, 50, 50));
         answer_labelA.setForeground(new Color(25, 255, 0));
-        answer_labelA.setFont(new Font("MV Boli", Font.PLAIN, 35));
+        answer_labelA.setFont(new Font("Ariel", Font.PLAIN, 35));
 
         answer_labelB.setBounds(125, 200, 500, 100);
         answer_labelB.setBackground(new Color(50, 50, 50));
         answer_labelB.setForeground(new Color(25, 255, 0));
-        answer_labelB.setFont(new Font("MV Boli", Font.PLAIN, 35));
+        answer_labelB.setFont(new Font("Ariel", Font.PLAIN, 35));
 
         answer_labelC.setBounds(125, 300, 500, 100);
         answer_labelC.setBackground(new Color(50, 50, 50));
         answer_labelC.setForeground(new Color(25, 255, 0));
-        answer_labelC.setFont(new Font("MV Boli", Font.PLAIN, 35));
+        answer_labelC.setFont(new Font("Ariel", Font.PLAIN, 35));
 
         answer_labelD.setBounds(125, 400, 500, 100);
         answer_labelD.setBackground(new Color(50, 50, 50));
         answer_labelD.setForeground(new Color(25, 255, 0));
-        answer_labelD.setFont(new Font("MV Boli", Font.PLAIN, 35));
+        answer_labelD.setFont(new Font("Ariel", Font.PLAIN, 35));
 
         seconds_left.setBounds(535, 510, 100, 100);
         seconds_left.setBackground(new Color(25, 25, 25));
         seconds_left.setForeground(new Color(255, 0, 0));
-        seconds_left.setFont(new Font("Ink Free", Font.BOLD, 60));
+        seconds_left.setFont(new Font("Ariel", Font.BOLD, 60));
         seconds_left.setBorder(BorderFactory.createBevelBorder(1));
         seconds_left.setOpaque(true);
         seconds_left.setHorizontalAlignment(JTextField.CENTER);
@@ -130,14 +130,14 @@ public class Quiz implements ActionListener
         time_label.setBounds(535, 475, 100, 16);
         time_label.setBackground(new Color(50, 50, 50));
         time_label.setForeground(new Color(255, 0, 0));
-        time_label.setFont(new Font("MV Boli", Font.PLAIN, 20));
+        time_label.setFont(new Font("Ariel", Font.PLAIN, 20));
         time_label.setHorizontalAlignment(JTextField.CENTER);
         time_label.setText("timer");
 
         number_right.setBounds(225, 225, 200, 100);
         number_right.setBackground(new Color(25, 25, 25));
         number_right.setForeground(new Color(25, 255, 0));
-        number_right.setFont(new Font("Ink Free", Font.BOLD, 50));
+        number_right.setFont(new Font("Ariel", Font.BOLD, 50));
         number_right.setBorder(BorderFactory.createBevelBorder(1));
         number_right.setHorizontalAlignment(JTextField.CENTER);
         number_right.setEditable(false);
@@ -145,11 +145,10 @@ public class Quiz implements ActionListener
         percentage.setBounds(225, 325, 200, 100);
         percentage.setBackground(new Color(25, 25, 25));
         percentage.setForeground(new Color(25, 255, 0));
-        percentage.setFont(new Font("Ink Free", Font.BOLD, 50));
+        percentage.setFont(new Font("Ariel", Font.BOLD, 50));
         percentage.setBorder(BorderFactory.createBevelBorder(1));
         percentage.setHorizontalAlignment(JTextField.CENTER);
         percentage.setEditable(false);
-
 
         frame.add(time_label);
         frame.add(seconds_left);
