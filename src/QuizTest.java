@@ -92,16 +92,23 @@ class QuizTest
     void checkIfSecondEqualsTen()
     {
         Quiz quiz = new Quiz();
-        assertEquals(10, quiz.seconds);
+        assertEquals(30, quiz.seconds);
     }
 
     @Test
     void checkIfPercentageIs100WhenAllAnswersCorrect()
     {
         Quiz quiz = new Quiz();
-        if (quiz.correct_guesses== quiz.total_questions)
+        if (quiz.correct_guesses == quiz.total_questions)
         {
             assertEquals("100", quiz.percentage.getText());
         }
+    }
+
+    @Test
+    void checkIfTotalAnswerNumberIsCorrect()
+    {
+        Quiz quiz = new Quiz();
+        assertNotEquals(quiz.index+1, quiz.total_questions);
     }
 }

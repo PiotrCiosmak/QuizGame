@@ -1,6 +1,3 @@
-wniebowzięcie Matki Bożej,zmartwychwstanie Jezusa,śmierć Jezusa na krzyżu,zesłanie Ducha Świętego
-na kornecie,na akordeonie,na djembe,na ksylofonie
-12 321,1 234 321,111 111 111,123 454 321
 z Rivii,z Oz,z Mordoru,z Cimmerii
 rach-ciach!,buch, buch!,z rur dwóch,bum w brzuch
 Superman,Batman,Spider-Man,Captain America
@@ -10,6 +7,7 @@ Rudolph Valentino,Humphrey Bogart,Charlie Chaplin,Fred Astaire
 Izokratesa,Cycerona,Demostenesa,Kwintyliana
 Marcello Bacciarelli,Jan van Eyck,Diego Velázquez,Jacques-Louis David
 wiśni,jabłoni,figi,gruszy
+na kornecie,na akordeonie,na djembe,na ksylofonie
 "Godzina myśli","W Szwajcarii","Anhelli","Arab"
 długoszpar,kosogon,orka,wal grenlandzki
 "Solaris","Opowieści o pilocie Pirxie","Dyktanda czyli…","Szpital Przemienienia"
